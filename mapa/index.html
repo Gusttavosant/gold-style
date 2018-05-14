@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Gold Style</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+ 
+    <body>
+    	<div id="site">
+        
+        	<h1 class="titulo">Gold Style</h1>
+        
+            <form method="post" action="index.html">
+                <section>
+                    
+                    <h2 class="frase">Encontre uma de nossas lojas mais proximas</h2>
+                    
+                    <h2 class="seila"><b>Lojas</b></h2>
+                    
+                    <p>Avenida Paulista, 1374</p>
+                    <p class="lojs">Alameda Jau, 1529 Jardins</p>
+                    <p class="loj">Rua Conselheiro Saraiva, 315 Santana</p>
+
+                    
+                    <section class="form">
+                    <div>
+                        <label for="txtEnderecoPartida"> <b> Endereço de partida:</b></label>
+                        <input type="text" id="txtEnderecoPartida" name="txtEnderecoPartida" />
+                    </div>
+                    
+                    <div>
+                        <label for="txtEnderecoChegada"> <b> Endereço da loja:</b></label>
+                        <input type="text" id="txtEnderecoChegada" name="txtEnderecoChegada" />
+                    </div>
+                    
+                    <div >
+                        <input type="submit" id="btnEnviar" name="btnEnviar" value="Enviar" />
+                    </div>
+                </section>
+                </section>
+            </form>
+        
+            <div id="mapa"></div>
+            
+            <div id="trajeto-texto"></div>
+        
+        </div>
+        
+        <script src="js/jquery.min.js"></script>
+		
+        <!-- Maps API Javascript -->
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+ 
+        <!-- Arquivo de inicialização do mapa -->
+		<script src="js/mapa.js"></script>
+    </body>
+</html>
