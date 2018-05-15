@@ -15,16 +15,18 @@
         <p id="gold">Gold Style</p>
         <p class="login" onclick="msg()">  Registro | Login </p>
         </div>
-    <div class="top">
-        <li onclick="msg()">O que há de novo</li>
-        <li onclick="msg()">Roupas</li>
-        <li onclick="msg()">Sapatos</li>
-        <li onclick="msg()">Bolsas</li>
-        <li onclick="msg()">Acessórios</li>
-        <li onclick="msg()">Joalheria</li>
-        <li id=mapa type=button onClick="parent.location='mapa/index.html'">Lojas</li>
-    </div>
 
+        
+    <div class="top">
+        <li class="expand" onclick="msg()">O que há de novo?</li>
+        <li class="expand" onclick="msg()">Roupas</li>
+        <li class="expand" onclick="msg()">Sapatos</li>
+        <li class="expand" onclick="msg()">Bolsas</li>
+        <li class="expand" onclick="msg()">Acessórios</li>
+        <li class="expand" onclick="msg()">Joalheria</li>
+        <li class="expand yellow" type=button onClick="parent.location='mapa/index.html'">Lojas</li>
+    </div>
+    
     <div class="roupas">
         <h2>Roupas</h2>
     
@@ -33,7 +35,7 @@
     <section class="all">
         <div class="lista">
                 <ul class="ordenada">
-                        <li class="aaaa">ROUPAS</li>
+                        <li>TODAS</li>
                         <li onclick="msg()">ROUPA DE PRAIA</li>
                         <li>CASACOS</li>
                         <li>JEANS</li>
@@ -42,7 +44,7 @@
                         <li>CALÇAS</li>
                 </ul>
 
-                <h3>filtrar Marcas</h3>
+                <h3>Filtrar Marcas</h3>
                 <ul class="ordenada">
                         
                 <li onclick="msg()"><input type="checkbox" class="checkbox">GUCCI</li>
@@ -58,80 +60,67 @@
         
         <div class="vitrine">
 
-        <div class="espace">
+        <div class="space">
             <div class="gucci" onclick="msg()"></div>
-
             <p style="font-size:14px"> <b>GUCCI</b> <br>Faux pearl-embellished wool cardigan <br> $980</p>
         </div> 
 
-        <div class="espace">
+        <div class="space">
             <div class="prada"></div>
-           
             <p style="font-size:14px"> <b>PRADA</b> <br> Printed cotton-jersey and silk mini dress <br>$2,110 </p>
         </div> 
 
         
-        <div class="espace">
+        <div class="space">
                 <div class="saint"></div>
-            
                 <p style="font-size:14px"><b>SAINT LAURENT</b> <br> + Paula's Ibiza sequined patchwork denim jacket <br>$1350</p>
         </div>
 
-         
 
-        <div class="espace">
+        <div class="space">
                 <div class="prada2"></div>
-            
                 <p style="font-size:14px"><b>PRADA</b> <br> Printed cotton-jersey T-shirt<br>$670</p>
         </div> 
 
-        <div class="espace">
+        <div class="space">
                 <div class="paradised"></div>
-            
                 <p style="font-size:14px"><b>PARADISED</b> <br> Oversize cotton-jersey hooded<br>$940</p>
         </div> 
 
-        <div class="espace">
+        <div class="space">
                 <div class="gucci2"></div>
-            
                 <p style="font-size:14px"><b>GUCCI</b> <br> T-shirt Printed hooded art<br>$450</p>
         </div> 
 
-        <div class="espace">
+        <div class="space">
                 <div class="balenciaga"></div>
-            
                 <p style="font-size:14px"><b>BALENCIAGA</b> <br> Jaquet-jersey hooded <br>$870</p>
         </div> 
 
-        <div class="espace">
+        <div class="space">
                 <div class="vetements"></div>
-            
                 <p style="font-size:14px"><b>VETEMENTS</b> <br> Houndstooth checked <br>$1620</p>
         </div> 
 
-        <div class="espace">
+        <div class="space">
                 <div class="balenciaga2"></div>
-            
                 <p style="font-size:14px"><b>BALENCIAGA</b> <br> Oversized printed logo jacket<br>$1300</p>
         </div> 
 
-        <div class="espace">
+        <div class="space">
                 <div class="loewe"></div>
-            
                 <p style="font-size:14px"><b>LOEWE</b> <br> Teddy leather-trimmed wool-blend bomber jacket<br>$2,550</p>
         </div>
 
-        <div class="espace">
+        <div class="space">
                 <div class="kenzo"></div>
                 <p style="font-size:14px"><b>KENZO</b> <br> Embroidered cotton-jersey hooded top<br>$370</p>
         </div>
 
-        <div class="espace">
+        <div class="space">
                 <div class="gucci3"></div>
-            
                 <p style="font-size:14px"><b>GUCCI</b> <br> Embellished paneled shell bomber jacket<br>$3,980</p>
         </div>
-
     </section>
 </div>
 
@@ -140,8 +129,6 @@
         <h3>encontre a loja mais proxima a você -></h3>
         <button input type="button" onClick="parent.location='mapa/index.html'" class"aqui" >AQUI</button>
 </footer>
-
 </body>
-
     <script src="script.js"></script>
 </html>

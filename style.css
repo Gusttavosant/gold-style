@@ -13,7 +13,7 @@ body{
     
 }
 
-.espace{
+.space{
     width: 230px;
     height: 320px;
 }
@@ -45,11 +45,11 @@ body{
     transform: scale(0.9) ;
 }
 
-#mapa{
+.expand{
     transition: 0.2s
 }
 
-#mapa:hover{
+.expand:hover{
     transform: scale(1.2) ;
 }
 
@@ -262,4 +262,16 @@ footer{
     display: flex;
     justify-content:space-around;
     font-family: 'EB Garamond', serif;
+}
+
+.diminuir{
+    transition: 0.2s
+}
+
+.diminuir:hover{
+    transform: scale(1.1) ;
+}
+
+.yellow{
+    color: goldenrod;
 }
