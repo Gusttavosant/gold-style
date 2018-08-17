@@ -98,7 +98,7 @@ body{
     background-image: url('img/gucci1.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .gucci:hover{
@@ -112,7 +112,7 @@ body{
     background-image: url('img/prada1.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .prada:hover{
@@ -125,7 +125,7 @@ body{
     background-image: url('img/saintlaurent1.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .saint:hover{
@@ -138,7 +138,7 @@ body{
     background-image: url('img/prada2.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .prada2:hover{
@@ -151,7 +151,7 @@ body{
     background-image: url('img/paradised1.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .paradised:hover{
@@ -164,7 +164,7 @@ body{
     background-image: url('img/gucci2.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .gucci2:hover{
@@ -177,7 +177,7 @@ body{
     background-image: url('img/balenciaga1.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .balenciaga:hover{
@@ -190,7 +190,7 @@ body{
     background-image: url('img/vetements1.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .vetements:hover{
@@ -203,7 +203,7 @@ body{
     background-image: url('img/balenciaga2.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .balenciaga2:hover{
@@ -216,7 +216,7 @@ body{
     background-image: url('img/loewe1.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .loewe:hover{
@@ -229,7 +229,7 @@ body{
     background-image: url('img/kenzo1.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .kenzo:hover{
@@ -243,7 +243,7 @@ body{
     background-image: url('img/gucci3.1.jpg'); 
     width: 180px;
     height: 270px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .gucci3:hover{
